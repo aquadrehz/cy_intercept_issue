@@ -1,0 +1,14 @@
+{
+  "correct_data": {
+    "username": "cypress_admin",
+    "password": "RMe9D4gFjM9qEjd3"
+  },
+  "incorrect_password": {
+    "username": "cypress_admin",
+    "password": "incorrectPassword"
+  },
+  "incorrect_username": {
+    "username": "incorrectUserName",
+    "password": "RMe9D4gFjM9qEjd3"
+  }
+}

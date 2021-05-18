@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://localhost:8080/",
+  "env": {
+    "environmentName":  "local",
+    "createServiceURL": "api/v1/services/create",
+    "createTEURL":      "api/v1/test_executions/create"
+  }
+}

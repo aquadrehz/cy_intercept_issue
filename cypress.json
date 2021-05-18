@@ -1,0 +1,26 @@
+{
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome, mocha-junit-reporter",
+    "reporterOptions": {
+      "html": true,
+      "json": true,
+      "mochaFile": "results/output-[hash].xml",
+      "overwrite": false,
+      "reportDir": "results/",
+      "reportFilename": "test_result",
+      "jenkinsMode": true
+    }
+  },
+  "video": false,
+  "watchForFileChanges": false,
+  "env": {
+    "RETRIES": 2
+  },
+  "projectId": "zn4ghp",
+  "defaultCommandTimeout": 20000
+}

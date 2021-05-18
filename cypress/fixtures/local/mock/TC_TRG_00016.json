@@ -1,0 +1,6 @@
+{
+  "status":{
+    "code":     "1001",
+    "message":  "Authentication fail"
+  }
+}

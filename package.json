@@ -1,0 +1,38 @@
+{
+  "name": "acm-trg-cypress",
+  "version": "1.0.0",
+  "description": "TRG Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "node_modules/cypress/bin/cypress open --env ENV=local",
+    "cypress:open:local": "node_modules/cypress/bin/cypress open --env ENV=local",
+    "cypress:run:local": "node_modules/cypress/bin/cypress run --headless --browser chrome --env ENV=local"
+  },
+  "author": "Shumnan Suengjitsiriroj",
+  "license": "MIT",
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/keywords"
+  },
+  "devDependencies": {
+    "@types/cypress-cucumber-preprocessor": "^1.14.0",
+    "@types/node": "^13.1.8",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "cypress": "^7.0.0",
+    "cypress-cucumber-preprocessor": "^1.19.0",
+    "cypress-multi-reporters": "^1.2.4",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "mocha": "^8.2.1",
+    "mocha-junit-reporter": "^1.23.3",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^4.0.0",
+    "mochawesome-report-generator": "^4.1.0",
+    "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
+    "tsify": "^4.0.1",
+    "typescript": "^3.7.5"
+  }
+}
